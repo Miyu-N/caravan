@@ -3,6 +3,11 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  color: #6c6b6b;
+}
+
+a {
+  text-decoration: none;
 }
 
 header {
@@ -12,7 +17,7 @@ header {
   text-align: center;
 }
 
-header.heading  {
+header .heading  {
   font-size: 32px;
 }
 
@@ -29,38 +34,30 @@ header.heading  {
 }
 
 
-.main-visual {
-  width: 100%;
-  height: 300px;
-  background-color: orange;
-}
-
-.main-visual-content {
-  width: 350px;
-  height: 300px;
-  background-color: gold;
-}
-
 .main {
   display: flex;
   justify-content: center;
-  marin 0 auto;
+  margin 0 auto;
 }
 
 .blog {
   width: 600px;
   height: 1400px;
-  background-color: limegreen;
 }
 
 .sidebar {
   width: 240px;
   height: 1400px;
-  background-color: palegreen;
 }
 
-.footer {
+footer {
   width: 100%;
   height: 120px;
+  text-align: center;
+  line-height: 120px;
+  background-color: #848282;
 }
 
+.footer-text {
+  color: #fff;
+}
