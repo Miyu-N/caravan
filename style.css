@@ -44,7 +44,7 @@ header .heading  {
 .main-visual-content {
   width: 40%;
   height: 300px;
-}
+  background-color: rgb(0,0,0,0.5);  /* 背景色を半透明の黒にする */
 
 
 .main {
